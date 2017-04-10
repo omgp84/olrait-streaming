@@ -1,0 +1,86 @@
+/**********************************************
+¡NO TOCAR! Si necesitáis añadir algo decidmelo
+**********************************************/
+
+body {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  background-color: #3f4245;
+  color: #e8e8e8;
+  background-color: rgb(16,68,85);
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Olrait';
+}
+
+.navbar-olrait {
+  box-shadow: 0 5px 15px #000;
+}
+
+.enlace-logo-navbar {
+  padding: 10px 0 0 0 !important;
+  color: #fff !important;
+  font-family: Olrait;
+  font-size: 120%;
+}
+
+.logo-navbar {
+  height: 35px;
+  width: 35px;
+  margin-right: 5px;
+}
+
+#navbar-link-inicio, #navbar-link-usuario {
+  padding: 12px 15px 0 15px;
+}
+
+#navbar-icono-inicio, #navbar-icono-usuario {
+  font-size: 25px;
+}
+
+#formulario-login-navbar {
+  padding: 15px;
+  min-width: 270px;
+  color: #000;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background-color: #222;
+  padding-top: 5px;
+  box-shadow: 0 -5px 15px #000;
+}
+
+#copyright-footer a, #ayuda-footer a {
+  line-height: 30px;
+  color: #9d9d9d;
+  text-decoration: none;
+}
+
+#copyright-footer a:hover, #ayuda-footer a:hover {
+  color: #fff;
+}
+
+.footer-link-social {
+  padding: 0 !important;
+  margin: 10px 5px !important;
+}
+
+.footer-icono-social {
+  height: 30px;
+}
+
+.modal {
+  color: #000;
+}
+
+@font-face {
+  font-family: Olrait;
+  src: url(fonts/Pacifico/Pacifico-Regular.ttf);
+}
